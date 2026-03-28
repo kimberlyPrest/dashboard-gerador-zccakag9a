@@ -1,0 +1,4 @@
+-- The original content of this migration attempted to create 'auth' schema objects
+-- (users, sessions, etc.) which are system-managed in Supabase.
+-- This caused a "permission denied" error (42501).
+-- This migration is now emptied to resolve the error and rely on Supabase's managed auth schema.
